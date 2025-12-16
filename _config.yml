@@ -13,7 +13,7 @@
 title: 汁汁的博客
 
 # Your name to show in the footer
-author: Wucz
+author: 汁汁
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -71,7 +71,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "Wucz的博客"
+url-pretty: "汁汁的博客"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -237,6 +237,10 @@ paginate: 5
 
 kramdown:
   input: GFM
+  math_engine: mathjax
+  math_engine_opts:
+    preview: true  # 显示预览
+    preview_as_code: true  # 将预览显示为代码
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
