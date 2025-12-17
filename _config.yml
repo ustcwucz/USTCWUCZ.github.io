@@ -232,7 +232,8 @@ date_format: "%Y年%m月%d日"
 timezone: "Asia/Shanghai"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /:categories/:year/:month/:day/:title/
+# /:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
